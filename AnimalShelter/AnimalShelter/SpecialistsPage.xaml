@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalShelter.SpecialistsPage"
+             BackgroundColor="Bisque">
+    <StackLayout>
+        <Label Text="Наши кураторы" FontSize="24" HorizontalOptions="Center" TextColor="Black"/>
+        <Label Text="Мы команда людей с большим сердцем, глубокими знаниями и многолетним опытом работы. Каждый из них по-настоящему любит своё дело и стремится помочь нашим клиентам, обеспечивая высокий уровень профессионализма, заботы и доверия." FontSize="16" HorizontalOptions="Center" TextColor="Black"/>
+        <ListView x:Name="specialistsListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="-1" Orientation="Horizontal" >
+                            <Image Source="{Binding ImageSource}" HeightRequest="300" WidthRequest="90" />
+                            <Label Text="{Binding Name}" FontSize="18" HorizontalOptions="Center" WidthRequest="300"/>
+                            <Label Text="{Binding Position}" FontSize="14" HorizontalOptions="CenterAndExpand" WidthRequest="200"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+    

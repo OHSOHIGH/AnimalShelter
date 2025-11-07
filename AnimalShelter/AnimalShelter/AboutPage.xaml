@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalShelter.AboutPage"
+             BackgroundColor="Bisque">
+    <StackLayout>
+        <Label Text="О нашем центре" FontSize="32" BackgroundColor="#D0F0C0" HorizontalOptions="CenterAndExpand" />
+        <Label Text="м. Полянка, ул. Старомонетный переулок, 35с7." FontSize="16" BackgroundColor="#D0F0C0" HorizontalOptions="CenterAndExpand" />
+        <Label Text="Контактный номер телефона: +7 (800) 555 35 35" FontSize="16" BackgroundColor="#D0F0C0" HorizontalOptions="CenterAndExpand" />
+        <Image Source="https://legkovmeste.ru/wp-content/uploads/2019/03/post_5acf74c41a1a8.jpg" HorizontalOptions="Center" />
+        <Label Text="«Остров Хвостиков» — это уютный центр передержки и зоо-отель для домашних питомцев. Мы создаём комфортные условия для кошек и собак, пока их хозяева в отъезде или не могут временно заботиться о любимцах." 
+            HorizontalOptions="Center" FontSize="16" TextColor="Black" />
+        <Label Text="Наш центр открылся в 2018 году как маленький проект любителей животных. С тех пор «Остров Хвостиков» вырос в современный зоо-отель, где каждое животное получает внимание, уход и заботу — как дома."  
+            HorizontalOptions="Center" FontSize="16" TextColor="Black" />
+    </StackLayout>
+</ContentPage>

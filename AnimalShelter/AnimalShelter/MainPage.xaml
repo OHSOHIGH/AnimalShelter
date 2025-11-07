@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalShelter.MainPage">
+
+    <StackLayout>
+        <Label Text="Центр передержки животных" FontSize="22" HorizontalOptions="CenterAndExpand"  TextColor="DarkGray"/>
+        <Label Text="Остров Хвостиков" FontSize="40" HorizontalOptions="CenterAndExpand" TextColor="Black"/>
+        <Image Source="https://petsittingbypam.com/wp-content/uploads/2021/11/dog-walker-29.jpg" HorizontalOptions="Center" />
+        <StackLayout >
+            <Button Text="О Центре" BackgroundColor="BurlyWood" BorderColor="#2F4538" BorderWidth="1"  Clicked="OnAboutClicked"/>
+            <Button Text="Каталог услуг" BackgroundColor="LawnGreen" BorderColor="#2F4538" BorderWidth="1"  Clicked="OnServicesClicked"/>
+            <Button Text="Наши кураторы" BackgroundColor="BurlyWood" BorderColor="#2F4538" BorderWidth="1"  Clicked="OnSpecialistsClicked"/>
+            <Button Text="Профиль" BackgroundColor="LawnGreen" BorderColor="#2F4538" BorderWidth="1"  Clicked="OnProfileClicked"/>
+            <Button Text="Актуальные записи" BackgroundColor="BurlyWood" BorderColor="#2F4538" BorderWidth="1" Clicked="OnAppointmentsClicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

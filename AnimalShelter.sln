@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelter.Android", "AnimalShelter\AnimalShelter.Android\AnimalShelter.Android.csproj", "{BA472E2F-F886-43D2-913F-F919F5698B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelter", "AnimalShelter\AnimalShelter\AnimalShelter.csproj", "{E6390DFD-697D-4531-824C-765A7BFCBDEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA472E2F-F886-43D2-913F-F919F5698B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA472E2F-F886-43D2-913F-F919F5698B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA472E2F-F886-43D2-913F-F919F5698B96}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BA472E2F-F886-43D2-913F-F919F5698B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA472E2F-F886-43D2-913F-F919F5698B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA472E2F-F886-43D2-913F-F919F5698B96}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E6390DFD-697D-4531-824C-765A7BFCBDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6390DFD-697D-4531-824C-765A7BFCBDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6390DFD-697D-4531-824C-765A7BFCBDEF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E6390DFD-697D-4531-824C-765A7BFCBDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6390DFD-697D-4531-824C-765A7BFCBDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6390DFD-697D-4531-824C-765A7BFCBDEF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66E4B285-1243-4DFB-9602-238877D14FE6}
+	EndGlobalSection
+EndGlobal

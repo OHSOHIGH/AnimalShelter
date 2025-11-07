@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalShelter.AppointmentsPage"
+             BackgroundColor="White">
+    <StackLayout>
+        <Label Text="Актуальные брони" FontSize="24" HorizontalOptions="Center" />
+        <ListView x:Name="appointmentsListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                            <Label Text="{Binding Date}" VerticalOptions="Center" />
+                            <Label Text="{Binding Time}" VerticalOptions="Center" />
+                            <Label Text="{Binding ServiceName}" VerticalOptions="Center" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
